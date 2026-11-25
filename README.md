@@ -51,7 +51,7 @@ Test data:
         Total Time: 0.871 s
     Trial 3: hi, I have a story here: Three logicians walk into a bar. The bartender looks up and asks, "Do you all want a beer?" The first logician thinks for a moment and says, "I don't know." The second logician also thinks for a moment and says, "I don't know." The third logician smiles confidently and says, "Yes!"
       qwen2.5-0.5b-instruct: 
-        TTFT: 0.064 s
+        TTFT: 0.064 s\n
         TTFA: 0.064 s
         Prompt Tokens: 107
         Completion Tokens: 337
