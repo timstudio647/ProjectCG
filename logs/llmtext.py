@@ -1,5 +1,6 @@
 from openai import OpenAI
 import time
+import subprocess
 
 client = OpenAI(
     base_url="http://127.0.0.1:1234/v1",
@@ -104,6 +105,24 @@ while userMsg!="quit":
     messages = [{"role": "user", "content": userMsg}]
     response = generate_response(messages,model_id, temperature=0.75)
     userMsg = input()
+
+
+try:
+    subprocess.run(
+        ["lms", "unload", model_id],
+        check=True,
+        timeout=30,
+    )
+    print("ejected")
+
+except FileNotFoundError:
+    print("failed to eject: no lms command, please check PATH")
+
+except subprocess.CalledProcessError as error:
+    print(f"failed to eject {error.returncode}。")
+
+except subprocess.TimeoutExpired:
+    print("overtime")
 
 #test input: 
 # hi, introduce yourself!
