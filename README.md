@@ -2,7 +2,7 @@
 A project that aims to create an interactive electronic life
 
 
-26/11/27
+26/11/24
 Write python script to call the lm studio api
 model_id = "google/gemma-4-12b-qat"
 
@@ -49,7 +49,7 @@ Test data:
         Total Tokens: 62
         Estimated Speed: 68.88 tokens/s
         Total Time: 0.871 s
-    Trial 3: hi, I have a story here: Three logicians walk into a bar. The bartender looks up and asks, "Do you all want a beer?" The first logician thinks for a moment and says, "I don't know." The second logician also thinks for a moment and says, "I don't know." The third logician smiles confidently and says, "Yes!"
+    Trial 3: hi, I have a story here: Three logicians walk into a bar. The bartender looks up and asks, "Do you all want a beer?" The first logician thinks for a moment and says, "I don't                 know." The second logician also thinks for a moment and says, "I don't know." The third logician smiles confidently and says, "Yes!"
       qwen2.5-0.5b-instruct: 
         TTFT: 0.064 s
         TTFA: 0.064 s
@@ -66,4 +66,9 @@ Test data:
         Total Tokens: 642
         Estimated Speed: 70.15 tokens/s
         Total Time: 8.154 s
-    
+
+
+
+    26/11/25
+    add context manage to the current python script
+    test long term memory and preformance when the context is long
