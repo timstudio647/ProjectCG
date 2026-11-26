@@ -69,6 +69,67 @@ Test data:
 
 
 
-    26/11/25
+  26/11/25
     add context manage to the current python script
     test long term memory and preformance when the context is long
+
+Conversation 1(Daily communication):
+User: hi, introduce yourself
+AI: Hello! I am Gemma 4, a large language model with open weights, developed by Google DeepMind. ...
+      TTFT: 0.229 s
+      TTFA: 0.229 s
+      Prompt Tokens: 17
+      Completion Tokens: 122
+      Total Tokens: 139
+      Estimated Speed: 62.60 tokens/s
+      Total Time: 2.180 s
+
+User: nice to meet you, my name is Tim, a CS undergraduate student
+AI: It's nice to meet you, Tim! It’s great to connect with a computer science student. ...
+      TTFT: 0.356 s
+      TTFA: 0.356 s
+      Prompt Tokens: 162
+      Completion Tokens: 225
+      Total Tokens: 387
+      Estimated Speed: 70.79 tokens/s
+      Total Time: 3.537 s
+
+User: In response to you, I'm currently working on a project, and you are the very central part of my project. But now I don't want to elaborate on this topic, let's start a relaxing topic
+AI: That sounds intriguing! I appreciate your privacy regarding your ...
+      TTFT: 0.540 s
+      TTFA: 0.540 s
+      Prompt Tokens: 441
+      Completion Tokens: 230
+      Total Tokens: 671
+      Estimated Speed: 53.61 tokens/s
+      Total Time: 4.832 s
+
+User: I'm very interested in your second topic, but before revealing my answer, is there any place you recommend?
+AI: That’s a fun way to start! Since I don't have a physical body to experience these places, my "recommendations" are ...
+      TTFT: 0.499 s
+      TTFA: 0.499 s
+      Prompt Tokens: 703
+      Completion Tokens: 424
+      Total Tokens: 1127
+      Estimated Speed: 59.40 tokens/s
+      Total Time: 7.639 s
+
+User: Yes, and actually your first recommandation is exactly my answer, so I'd like you to write a travel guide for me               
+AI: Excellent choice. Iceland is one of the most visually stunning and geologically active places on Earth. Because it is ...
+      TTFT: 0.688 s
+      TTFA: 0.688 s
+      Prompt Tokens: 1162
+      Completion Tokens: 967
+      Total Tokens: 2129
+      Estimated Speed: 68.38 tokens/s
+      Total Time: 14.832 s
+
+User: Your travel guide is really helpful, now I have a question for you, since you're a large language model, I'm sure that ...
+AI: That is a fascinating philosophical question, especially coming from a computer science perspective. You’re right: I don't have ...
+      TTFT: 0.668 s
+      TTFA: 0.668 s
+      Prompt Tokens: 2201
+      Completion Tokens: 762
+      Total Tokens: 2963
+      Estimated Speed: 57.43 tokens/s
+      Total Time: 13.938 s
