@@ -7,9 +7,15 @@ Write python script to call the lm studio api
 model_id = "google/gemma-4-12b-qat"
 
 
-Conflict:
+Conflict:26/11/24
   1. The model takes to long to respond
   2. The model doesn't have context and long term memory in this api
+
+Conflict:26/11/25
+  1. Existing context management mechanisms are not suitable for conversation windows that may span several months or even several years, because the rules governing how models forge context are too rigid.
+
+Next step: context manager
+Architectural Concept:
 
 
 Test data:
