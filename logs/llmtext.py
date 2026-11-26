@@ -98,13 +98,25 @@ def generate_response(messages, model_name, temperature=0.7):
 
 model_id = "google/gemma-4-12b-qat"
 
+messages = []
 
-userMsg = input()
+while True:
+    userMsg = input("User: ")
 
-while userMsg!="quit":
-    messages = [{"role": "user", "content": userMsg}]
-    response = generate_response(messages,model_id, temperature=0.75)
-    userMsg = input()
+    if userMsg == "quit":
+        break
+
+    messages.append({
+        "role": "user",
+        "content": userMsg
+    })
+
+    response = generate_response(messages, model_id)
+
+    messages.append({
+        "role": "assistant",
+        "content": response
+    })
 
 
 try:
