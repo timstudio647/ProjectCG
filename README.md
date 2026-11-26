@@ -73,7 +73,7 @@ Test data:
     add context manage to the current python script
     test long term memory and preformance when the context is long
 
-Conversation 1(Daily communication):
+Conversation 1(Context Overflow and Information Retention Test):
 User: hi, introduce yourself
 AI: Hello! I am Gemma 4, a large language model with open weights, developed by Google DeepMind. ...
       TTFT: 0.229 s
