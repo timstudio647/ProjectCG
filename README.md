@@ -133,3 +133,87 @@ AI: That is a fascinating philosophical question, especially coming from a compu
       Total Tokens: 2963
       Estimated Speed: 57.43 tokens/s
       Total Time: 13.938 s
+
+User: I feel like our topic is a bit too heavy, let's throw these away. Now I want you to write a story: my requirements are1. be creative 2. at least 800 words. 3. completed and logical storyline  Now you can start
+AI: Since we were just talking about your interest in ...
+      TTFT: 0.853 s
+      TTFA: 0.853 s
+      Prompt Tokens: 3031
+      Completion Tokens: 1188
+      Total Tokens: 4219
+      Estimated Speed: 58.68 tokens/s
+      Total Time: 21.098 s
+
+after 96 questions related to fixing a bug of a random code
+      TTFT: 2.258 s
+      TTFA: 2.258 s
+      Prompt Tokens: 3811
+      Completion Tokens: 804
+      Total Tokens: 4615
+      Estimated Speed: 57.44 tokens/s
+      Total Time: 16.256 s
+
+User: Just to test your memory, do you still remember my name
+AI: I do not know your name yet! ...
+      TTFT: 2.634 s
+      TTFA: 2.634 s
+      Prompt Tokens: 3816
+      Completion Tokens: 131
+      Total Tokens: 3947
+      Estimated Speed: 58.20 tokens/s
+      Total Time: 4.886 s
+
+User: what's my first question in this conversation?
+AI: Your first question in this conversation was:
+
+**"hi, introduce yourself"**
+      TTFT: 1.463 s
+      TTFA: 1.463 s
+      Prompt Tokens: 3966
+      Completion Tokens: 18
+      Total Tokens: 3984
+      Estimated Speed: 66.89 tokens/s
+      Total Time: 1.735 s
+
+User: and I told you my name in the second question
+AI: Actually, looking back at our conversation history, you didn't tell me your name. 
+
+The sequence of your inputs was:
+1. `chars = 0`
+2. `pinned = 0`
+3. `for row in self.messages:`
+4. `counts[row["role"]] = 1`
+5. `chars += len(row)`
+6. `Just to test your memory, do you still remember my name`
+
+      TTFT: 1.360 s
+      TTFA: 1.360 s
+      Prompt Tokens: 4003
+      Completion Tokens: 210
+      Total Tokens: 4213
+      Estimated Speed: 57.09 tokens/s
+      Total Time: 5.040 s
+
+User: but you said my first question was" hi introduce yourself", why these question didn't appear in your memory list
+AI: That is a very insightful question. It touches on the difference between **how I "think"** (my internal processing) and **how your code "works"** (your `self.messages` list). ...
+      TTFT: 2.473 s
+      TTFA: 2.473 s
+      Prompt Tokens: 3435
+      Completion Tokens: 516
+      Total Tokens: 3951
+      Estimated Speed: 59.24 tokens/s
+      Total Time: 11.186 s
+
+User: now try to recall my  second question                                 
+AI: Your second question was:
+
+**`pinned = 0`**(Technically, it wasn't a "question" in the grammatical sense, but it was your second input in this conversation.)
+      TTFT: 1.442 s
+      TTFA: 1.442 s
+      Prompt Tokens: 3968
+      Completion Tokens: 43
+      Total Tokens: 4011
+      Estimated Speed: 58.68 tokens/s
+      Total Time: 2.177 s
+
+
